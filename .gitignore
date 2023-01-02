@@ -1,0 +1,9 @@
+node_modules/ (ignored by default)
+test.js
+config.js
+.env
+.rar
+.git
+Weather-App.rar
+.vscode
+node_modules

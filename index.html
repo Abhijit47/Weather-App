@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script type='text/javascript' src='config.js'></script>
+    <script defer type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+    <div class="container-header">
+    <h1 class="header">Weather App</h1>
+    <p class="time"></p>
+  </div>
+      <section class="main-header">
+        
+        <div class="container">
+          <label for="input"></label>
+          <input
+            class="input"
+            type="text"
+            name="input"
+            placeholder="enter your city"
+          />
+          <button class="btn" type="submit">Search</button>
+        </div>
+          <div class="card-container">
+            <h2 class="city-name"></h2>
+            <h3 class="country-name"></h3>
+            <p class="temperature">°C</p>
+            <img class="icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon">
+            <p class="description" ></p>
+            <p class="humidity" ></p>
+            <p class="sunrise" ></p>
+            <p class="wind-speed" ></p>
+            <p class="sunset" ></p>
+            <p class="feel" ></p>
+            <p class="air_pressure" ></p>
+            <p class="visibility"></p>
+            <p class="latitude"></p>
+            <p class="longitude" ></p>
+            <p class="wind-gust"></p>
+            <p class="date-stamp"></p>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./moment-with-locales.js"></script>
+  </body>
+</html>

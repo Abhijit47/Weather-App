@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=McLaren&family=Montserrat:wght@100;200;300;400&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  color: black;
+  background-color: #eedede;
+  background: url(https://source.unsplash.com/1600x1900/?landscape,nature);
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  padding: 0 3.5rem;
+  gap: 2rem;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  line-height: 2.2;
+  border: 1px solid black;
+  border-radius: 2rem;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.country-name {
+  align-items: flex-start;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.city-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.icon {
+  padding: 1rem;
+}
+
+.time,
+p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.footer {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 1rem; */
+  /* margin-top: 2rem; */
+
+  /* position: absolute;
+  transform: translate(38rem, 15rem); */
+  margin-top: auto;
+  text-align: center;
+}
+/* ----------------------- */
+/* LEFT SIDE */
+/* ----------------------- */
+/*
+.description {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.wind-speed {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.sunrise {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.feels-like {
+  padding: 1rem 1rem 1rem 0;
+}
+
+.visibility {
+  padding: 1rem 1rem 1rem 0;
+}
+*/
+/* ----------------------- */
+/* RIGHT SIDE */
+/* ----------------------- */
+/*
+.humidity {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.air-pressure {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.sunset {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.latitude {
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+.longitude {
+  padding: 1rem 0rem 1rem 1rem;
+}
+*/
+
+/*
+.container-header {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.container {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 4rem 2rem 4rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+*/
+.input {
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1rem;
+  cursor: text;
+
+  display: grid;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5rem;
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 1.3rem;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+/*
+.card-header {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 4rem 2rem 4rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 2/3;
+  align-items: center;
+  gap: 1rem;
+}
+*/
